@@ -8,7 +8,14 @@ class App extends Component {
   constructor() {
     super();
 
-
+  const config = {
+    apiKey: "AIzaSyAPpnFnm0ItYtXHh49qgD330C8xRSkUI3Y",
+    authDomain: "database1-bba70.firebaseapp.com",
+    databaseURL: "https://database1-bba70.firebaseio.com",
+    projectId: "database1-bba70",
+    storageBucket: "database1-bba70.appspot.com",
+    messagingSenderId: "109036782994"
+  };
 
   firebase.initializeApp(config);
 
