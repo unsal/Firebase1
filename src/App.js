@@ -8,6 +8,7 @@ class App extends Component {
   constructor() {
     super();
 
+    // Github'a publish ederken dikkat
   const config = {
     apiKey: "AIzaSyAPpnFnm0ItYtXHh49qgD330C8xRSkUI3Y",
     authDomain: "database1-bba70.firebaseapp.com",
