@@ -58,13 +58,13 @@ onClickCreate = e => {
 
         };
 
-  onClickAdd = e => {
-    e.preventDefault();
+  // onClickAdd = e => {
+  //   e.preventDefault();
 
-    const ref = firebase.database().ref("users");
-    const message = { eylul: { date_of_birth: "zzzz", full_name: "zzz" } };
+  //   const ref = firebase.database().ref("users");
+  //   const message = { eylul: { date_of_birth: "zzzz", full_name: "zzz" } };
 
-  }
+  // }
 
   // consol'a data döndürür.
   onClickLoadData(e) {
